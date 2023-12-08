@@ -1,1 +1,3 @@
-# Projeto-A3-Site-de-Musica
+# Script Symphony
+
+# its about my path learning JavaScript

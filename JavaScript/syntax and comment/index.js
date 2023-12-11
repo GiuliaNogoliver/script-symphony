@@ -8,3 +8,5 @@ console.log(`Olá Mundo!`);
  * grande
  * igual java
  */
+
+//crtl ;: -> comenta a linha

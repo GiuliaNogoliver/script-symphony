@@ -2,7 +2,7 @@
 
 // exemplo Abacate = {a: 3, b: 1, c: 1, t: 1, e: 1}
 
-const word = "Wellington e Giulia".toLowerCase().replaceAll(" ", "");
+const word = "Wellington e Giulia".toLowerCase().replaceAll(" ", ""); //se deixar apenas replace o segundo espaço ele desconsidera 
 let letters = {};
 
 for(i = 0;i < palavra.length; i++){ // laço normal

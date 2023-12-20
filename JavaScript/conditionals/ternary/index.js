@@ -4,8 +4,8 @@
 const speed = 75;
 const warn = 50;
 
-const condition = speed > warn 
-    ? console.log("Levou uma multa!") 
+const condition = speed > warn
+    ? console.log("Levou uma multa!")
     : console.log("Esta no limite de velocidade");
 
 // Um tipo diferente de If e Else

@@ -9,5 +9,5 @@ console.log('"Texto com aspas"');
 console.log(`"Texto com aspas"`);
 // console.log(""Texto com aspas usando a string aspas quebra"");
 
-//conversor para String
+//conversor para String -> transformacao
 console.log(String(123));

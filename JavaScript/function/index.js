@@ -16,5 +16,5 @@ console.log(funcaoExpression());
 const funcaoArrow = () => {
     return 2 * 2;
 }
-// a a rrow function sempre é declarada como const
+// a arrow function sempre é declarada como const
 console.log(funcaoArrow());

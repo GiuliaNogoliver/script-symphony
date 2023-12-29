@@ -1,3 +1,7 @@
+// O Arguments é tudo aquilo que é passado como parâmetro dentro da funçao
+
+// voce pode usar return Arguments, onde ele vai criar um objeto passando as informacoes que voce passou separando por virgula.
+
 /*function soma(num1, num2) {
     if (typeof num1 === 'number' && typeof num2 === 'number') {
         return num1 + num2;

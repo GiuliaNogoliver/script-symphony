@@ -44,6 +44,18 @@ const nomeFuncArrowParams = param => param; //da para deixar param sem parentese
 
 //   5. Não pode ser invocada com new
 
+function novaFunc(){
+    return 123;
+}
+
+new novaFunc();
+
+const novaFuncArrow = () => {
+    return console.log(123);
+};
+
+// new novaFuncArrow(); da erro
+
 
 /* 
     6. Contexto
@@ -57,8 +69,51 @@ const nomeFuncArrowParams = param => param; //da para deixar param sem parentese
     como o contexto global, que no caso dos navegadores é window
 */
 
+const lanches = {
+    cardapio: [
+        { nome: "x-veg", preco:"R$30" },
+        { nome: "x-well", preco:"R$32" }
+    ],
+
+    meuPedidoFunc: function(select){
+        return console.log(this.cardapio[select]);   // esse this vai pegar o cardapiuo do contexto
+    },
+
+    meuPedidoFuncTimeOut: function (){
+        setTimeout(function(){
+            console.log(this.cardapio);
+            console.log(this);
+        }.bind(this), 1000); //quero q pegue o this do global e passe para meu contexto
+    },
+
+    meuPedidoArrowFunc: (select) => {
+        this.cardapio = [
+            { nome: "x-veg", preco:"R$30" },
+            { nome: "x-well", preco:"R$32" }
+        ];
+
+        return console.log(this.cardapio[select]);
+    }
+};
+
+lanches.meuPedidoFunc(1);
+lanches.meuPedidoArrowFunc(2);
+lanches.meuPedidoFuncTimeOut();
+
+
 /*
     7. Constructor
     Arrow functions não podem ser constructores, então não é possivel usar o operador
     new com a mesma.
 */
+
+class newFunc {
+    constructor(nome){
+        this.nome = nome;
+    }
+}
+
+const a = new newFunc("Giulia Nogueira");
+
+console.log(a.nome);
+// no caso o construtor funciona pois ele nao é uma arrow function

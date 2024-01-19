@@ -3,7 +3,8 @@
 //  A forma de usar esses tipos vc q escolhe
 'String' > /* aspas simples */
 "String" > /* aspas duplas */
-`String` > /* crase */
+`String` > /* crase  --- 1x AltGr (tecla q tem crase)*/
+
 
 console.log('"Texto com aspas"');
 console.log(`"Texto com aspas"`);

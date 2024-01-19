@@ -6,11 +6,12 @@ console.log(objeto01);
 
 //  assim como em java ele pode ter atributos e metodos
 objeto02 = {
+    //  se declara o nome da propriedade dois pontos: e tipo de valor q recebe
     cor: String,
     tamanho: Number,
     peso: Number
 }
-//  se declara o nome da propriedade dois pontos: e tipo de valor q recebe
+
 console.log(objeto02);
 
 

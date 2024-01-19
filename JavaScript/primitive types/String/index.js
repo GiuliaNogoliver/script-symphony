@@ -1,9 +1,9 @@
 //  Tipo String
 
 //  A forma de usar esses tipos vc q escolhe
-'String'
-"String"
-`String`
+'String' > /* aspas simples */
+"String" > /* aspas duplas */
+`String` > /* crase */
 
 console.log('"Texto com aspas"');
 console.log(`"Texto com aspas"`);

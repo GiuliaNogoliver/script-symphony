@@ -15,4 +15,3 @@ arr.unshift(0);
 arr.unshift(-1);
 
 console.table(arr);
-

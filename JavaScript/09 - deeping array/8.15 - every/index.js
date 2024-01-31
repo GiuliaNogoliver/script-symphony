@@ -31,7 +31,7 @@ const pedidos = [
     }
 ];
 
-// O every retorna true e false
+// O every retorna true e false, ele quer saber se CADA
 
 const temRefri = pedidos.every((element) => {
     return element.bebida == "Coca cola";

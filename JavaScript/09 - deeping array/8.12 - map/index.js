@@ -29,4 +29,4 @@ pedidos.map((element, index) => {
     };
 });
 
-// O map serve para iterar os elementos do array
+// O map serve para percorrer o array e iterar os elementos do array

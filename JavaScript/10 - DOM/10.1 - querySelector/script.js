@@ -1,4 +1,4 @@
-"use-strict";
+"use strict";
 
 // através do query selector conseguimos acessar os elementos do index html
 // o focument é o index.html
